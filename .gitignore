@@ -1,10 +1,10 @@
 log/*
 temp/*
-!vendor/*
+# vendor/*
 !vendor/others
 
 .DS_Store
 !.gitignore
 !.htaccess
 !web.config
-app/config/config.local.neon
+# app/config/config.local.neon
