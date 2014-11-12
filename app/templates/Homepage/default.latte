@@ -1,184 +1,183 @@
 {* This is the welcome page, you can delete it *}
-
+{block title}Cestovatelsky festival{/block}
 {block content}
 <!-- Header -->
-    <header class="container" id="header-container">
-        <!-- Top menu -->
-        <div class="row" id="logo-row">
+<header class="container" id="header-container">
+  <!-- Top menu -->
+  <div class="row" id="logo-row">
+    <div class="col-sm-4 xs-text-center" id="logo">
+        <a href="#" title="Festival cestou necestou">
+            <img class="hidden-xs" src="images/logo_cn.jpg" alt="Cestou necestou">
+            <img class="visible-xs-inline" src="images/logo_cn.jpg" alt="Cestou necestou">
+        </a>
+    </div>
 
-            <div class="col-sm-4 xs-text-center" id="logo">
-                <a href="#" title="Festival cestou necestou">
-                    <img class="hidden-xs" src="images/logo_cn.jpg" alt="Cestou necestou">
-                    <img class="visible-xs-inline" src="images/logo_cn.jpg" alt="Cestou necestou">
-                </a>
-            </div>
-
-            <div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
-                <div class="row text-uppercase hidden-xs" id="info-panel">
-                    <div class="col-xs-5">
-                        <a href="#" title="Newsletter">Newsletter</a>
-                    </div>
-                    <div class="col-xs-3 text-center">
-                        <a href="#" title="Press">Press</a>
-                    </div>
-                    <div class="col-xs-4 text-right">
-                        <a href="#" title="Partneri">Partneri</a>
-                    </div>
-                </div>
-
-                <!-- Mobile navigation menu -->
-                <div class="row visible-xs-block" id="xs-nav">
-                    <div class="col-xs-6 text-right">
-                        <button type="button" class="btn glyphicon glyphicon-align-justify" data-toggle="collapse" data-target="#xs-menu" id="btn-xs-menu"></button>
-                    </div>
-                    <div class="col-xs-6 text-left">
-                        <button type="button" class="btn glyphicon glyphicon-search" data-toggle="collapse" data-target="#search-form" id="btn-xs-search"></button>
-                    </div>
-                </div>
-
-                <!-- Mobile navigation -->
-                <nav class="visible-xs-block text-center">
-                    <ul class="nav collapse text-uppercase" id="xs-menu">
-                        <li>Kalendar akcii</li>
-                        <li>Novinky</li>
-                        <li>Festival Cestou Necestou</li>
-                        <li>Prednasky</li>
-                        <li>Prednasajuci</li>
-                        <li>Newsletter</li>
-                        <li>Press</li>
-                        <li>Partneri</li>
-                    </ul>
-                </nav>
-
-                <!-- Search box -->
-                <form role="form" class="collapse" id="search-form">
-                    <div class="form-group has-feedback">
-                     <label class="control-label sr-only" for="search-input">Zadaj hladany text...</label>
-                     <input type="text" class="form-control" id="search-input" placeholder="zadaj hladany text...">                      
-                     <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                    </div>
-                </form>
-             </div>
-
-      <!-- Social networks -->
-      <div class="col-md-2 text-right xs-text-center" id="social-networks">
-        <a href="#" title="Facebook"><img src="images/facebook-icon.png" altl="Facebook"></a>
-        <a href="#" title="Google Plus"><img src="images/gplus.png" altl="Google Plus"></a>
-        <a href="#" title="Twitter"><img src="images/twitter.png" altl="Twitter"></a>
+    <div class="col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3">
+      <div class="row text-uppercase hidden-xs" id="info-panel">
+        <div class="col-xs-5">
+          <a href="#" title="Newsletter">Newsletter</a>
+        </div>
+        <div class="col-xs-3 text-center">
+          <a href="#" title="Press">Press</a>
+        </div>
+        <div class="col-xs-4 text-right">
+          <a href="#" title="Partneri">Partneri</a>
+        </div>
       </div>
 
-		</div>
-  </header>
+      <!-- Mobile navigation menu -->
+      <div class="row visible-xs-block" id="xs-nav">
+        <div class="col-xs-6 text-right">
+          <button type="button" class="btn glyphicon glyphicon-align-justify" data-toggle="collapse" data-target="#xs-menu" id="btn-xs-menu"></button>
+        </div>
+        <div class="col-xs-6 text-left">
+          <button type="button" class="btn glyphicon glyphicon-search" data-toggle="collapse" data-target="#search-form" id="btn-xs-search"></button>
+        </div>
+      </div>
 
-  <header class="container-slideshow">
-    <div class="slideshow-shadow"></div>
-		<!-- Slideshow -->
-		<div class="row hidden-xs" id="slideshow">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Mobile navigation -->
+      <nav class="visible-xs-block text-center">
+        <ul class="nav collapse text-uppercase" id="xs-menu">
+          <li>Kalendar akcii</li>
+          <li>Novinky</li>
+          <li>Festival Cestou Necestou</li>
+          <li>Prednasky</li>
+          <li>Prednasajuci</li>
+          <li>Newsletter</li>
+          <li>Press</li>
+          <li>Partneri</li>
+        </ul>
+      </nav>
+
+      <!-- Search box -->
+      <form role="form" class="collapse" id="search-form">
+        <div class="form-group has-feedback">
+          <label class="control-label sr-only" for="search-input">Zadaj hladany text...</label>
+          <input type="text" class="form-control" id="search-input" placeholder="zadaj hladany text...">                      
+          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+        </div>
+      </form>
+  </div>
+
+    <!-- Social networks -->
+    <div class="col-md-2 text-right xs-text-center" id="social-networks">
+      <a href="#" title="Facebook"><img src="images/facebook-icon.png" altl="Facebook"></a>
+      <a href="#" title="Google Plus"><img src="images/gplus.png" altl="Google Plus"></a>
+      <a href="#" title="Twitter"><img src="images/twitter.png" altl="Twitter"></a>
+    </div>
+
+	</div>
+</header>
+
+<header class="container-slideshow">
+  <div class="slideshow-shadow"></div>
+	<!-- Slideshow -->
+	<div class="row hidden-xs" id="slideshow">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   			
-  				<!-- Indicators -->
-  				<ol class="carousel-indicators">
-    				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-   					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  				</ol>
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+   			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  		</ol>
 
-  				<!-- Wrapper for slides -->
-  				<div class="carousel-inner">
-    				<div class="item active">
-     	 				<img src="images/image1.jpg" alt="Cestou necestou">
-      					<div class="carousel-caption">
-        					<h3>Lorem ipsum dolor sit amet</h3>
-        					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
-        					<div>
-        						<button type="button" class="btn btn-lg">More</button>
-        					</div>
-      					</div>
-    				</div>
-    				<div class="item">
-      					<img src="images/image2.jpg" alt="Cestou necestou">
-      					<div class="carousel-caption">
-        					<h3>Lorem ipsum dolor sit amet</h3>
-        					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
-        					<div>
-        						<button type="button" class="btn btn-lg">More</button>
-        					</div>
-      					</div>
-    				</div>
-    				<div class="item">
-      					<img src="images/image3.jpg" alt="Cestou necestou">
-      					<div class="carousel-caption">
-        					<h3>Lorem ipsum dolor sit amet</h3>
-        					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
-        					<div>
-        						<button type="button" class="btn btn-lg">More</button>
-        					</div>
-      					</div>
-    				</div>
-            <div class="item">
-                <img src="images/image4.jpg" alt="Cestou necestou">
-                <div class="carousel-caption">
-                  <h3>Lorem ipsum dolor sit amet</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
-                  <div>
-                    <button type="button" class="btn btn-lg">More</button>
-                  </div>
-                </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+     	 		<img src="images/image1.jpg" alt="Cestou necestou">
+      			<div class="carousel-caption">
+        			<h3>Lorem ipsum dolor sit amet</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
+        		  <div>
+                <button type="button" class="btn btn-lg">More</button>
+        			</div>
+      			</div>
+    		</div>
+    	 <div class="item">
+      	 <img src="images/image2.jpg" alt="Cestou necestou">
+      		  <div class="carousel-caption">
+        		  <h3>Lorem ipsum dolor sit amet</h3>
+        		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
+        		  <div>
+                <button type="button" class="btn btn-lg">More</button>
+        		  </div>
+      		  </div>
+        </div>
+        <div class="item">
+          <img src="images/image3.jpg" alt="Cestou necestou">
+      		  <div class="carousel-caption">
+        		  <h3>Lorem ipsum dolor sit amet</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
+        			<div>
+        				<button type="button" class="btn btn-lg">More</button>
+        			</div>
+      			</div>
+    		</div>
+        <div class="item">
+          <img src="images/image4.jpg" alt="Cestou necestou">
+            <div class="carousel-caption">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
+              <div>
+                <button type="button" class="btn btn-lg">More</button>
+              </div>
             </div>
-            <div class="item">
-                <img src="images/image5.jpg" alt="Cestou necestou">
-                <div class="carousel-caption">
-                  <h3>Lorem ipsum dolor sit amet</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
-                  <div>
-                    <button type="button" class="btn btn-lg">More</button>
-                  </div>
-                </div>
+        </div>
+        <div class="item">
+          <img src="images/image5.jpg" alt="Cestou necestou">
+            <div class="carousel-caption">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
+              <div>
+                <button type="button" class="btn btn-lg">More</button>
+              </div>
             </div>
-  				</div>
+        </div>
+  		</div>
 
-  				<!-- Controls -->
-  				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    				<span class="glyphicon glyphicon-chevron-left"></span>
-  				</a>
-  				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    				<span class="glyphicon glyphicon-chevron-right"></span>
-  				</a>
-			</div>
+  		<!-- Controls -->
+  		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    		<span class="glyphicon glyphicon-chevron-left"></span>
+  		</a>
+  		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    		<span class="glyphicon glyphicon-chevron-right"></span>
+  		</a>
 		</div>
-    </header>
+	</div>
+</header>
 
-    <header class="container" id="header-container">
-		<!-- Menu -->
-		<div class="row hidden-xs" id="menu">
-			<ul class="nav text-uppercase text-center">
-				<li class="col-sm-3 col-md-2 col-md-offset-1 calendar">
-					<a href="#" title="Kalendar akcii">Kalendar akcii</a>
-				</li>
-				<li class="col-sm-2 col-md-2 news">
-					<a href="#" title="Novinky">Novinky</a>
-				</li>
-				<li class="col-sm-3 col-md-2 festival">
-					<a href="#" title="Festival cestou necestou">Festival cestou necestou</a>
-				</li>
-				<li class="col-sm-2 col-md-2 present">
-					<a href="#" title="Prednasky">Prednasky</a>
-				</li>
-				<li class="col-sm-2 col-md-2 right presenting">
-					<a href="#" title="Prednasajuci">Prednasajuci</a>
-				</li>
-			</ul>
-		</div>
-	</header>
+<header class="container" id="header-container">
+	<!-- Menu -->
+	<div class="row hidden-xs" id="menu">
+    <ul class="nav text-uppercase text-center">
+		  <li class="col-sm-3 col-md-2 col-md-offset-1 calendar">
+				<a href="#" title="Kalendar akcii">Kalendar akcii</a>
+			</li>
+			<li class="col-sm-2 col-md-2 news">
+				<a href="#" title="Novinky">Novinky</a>
+			</li>
+			<li class="col-sm-3 col-md-2 festival">
+				<a href="#" title="Festival cestou necestou">Festival cestou necestou</a>
+			</li>
+			<li class="col-sm-2 col-md-2 present">
+				<a href="#" title="Prednasky">Prednasky</a>
+			</li>
+			<li class="col-sm-2 col-md-2 right presenting">
+				<a href="#" title="Prednasajuci">Prednasajuci</a>
+			</li>
+		</ul>
+	</div>
+</header>
 
-	<!-- Content -->
-	<div class="container content">
-		<div class="row">
-      <!-- Najblizsie akcie -->
-      <div class="col-sm-6 col-md-5 col-md-offset-1" id="akcie">
-        <h1 class="text-uppercase xs-text-center">Najblizsie akcie</h1>
+<!-- Content -->
+<div class="container content">
+	<div class="row">
+    <!-- Najblizsie akcie -->
+    <div class="col-sm-6 col-md-5 col-md-offset-1" id="akcie">
+      <h1 class="text-uppercase xs-text-center">Najblizsie akcie</h1>
         <div class="akcia clearfix">
           <img src="images/akcie.png" alt="">
           <h2 class="green">6.11.2014, 19:00</h2>
@@ -194,10 +193,10 @@
           <h2 class="text-uppercase red">Festival cestou necestou</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum ac pharetra nunc congue.</p>
         </div>
-      </div>
-      <!-- Novinky -->
-      <div class="col-sm-6 col-md-5" id="novinky">
-        <h1 class="text-uppercase xs-text-center">Najblizsie akcie</h1>
+    </div>
+    <!-- Novinky -->
+    <div class="col-sm-6 col-md-5" id="novinky">
+      <h1 class="text-uppercase xs-text-center">Najblizsie akcie</h1>
         <div class="index-new clearfix">
           <button type="button" class="btn btn-primary">1.</button>
           <a href="#" title="Cestovatelsky festival">
@@ -477,10 +476,7 @@
 
 {block scripts}
 {include parent}
-
 {/block}
 
-
 {block head}
-   
 {/block}
